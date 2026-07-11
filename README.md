@@ -4,7 +4,7 @@
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-amaan--hawaldar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/amaan-hawaldar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-amaan--hawaldar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amaan-hawaldar-36602b286/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-amaan0408-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/amaan0408)
 [![Email](https://img.shields.io/badge/Email-hawaldaramaan9%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hawaldaramaan9@gmail.com)
 
@@ -19,7 +19,7 @@
 - 🎓 B.Tech in Computer Science
 - 🌱 Currently deepening my DSA in Java and exploring Redis & Docker for backend systems
 - 🎯 Focused on backend engineering: **Java · Spring Boot · REST APIs · SQL · System Design**
-- ⚡ Fun fact: I also direct cinematic video edits and VFX under **SRK SQUAD**, blending my love for storytelling with my love for building things
+- ⚡ Fun fact: I am also a Video Editor, blending my love for storytelling with my love for building things
 
 ---
 
