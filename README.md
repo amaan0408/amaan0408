@@ -15,7 +15,7 @@
 ### 👨‍💻 About Me
 
 - 🔧 Technical Consultant Intern @ **Quorum Software**, working on enterprise Java applications — production issue investigation, SQL root-cause analysis, and Spring Boot backend development
-- 🏆 Winner, **Quorum HaQathon 2025** — built and presented an AI-powered sentiment analysis solution
+- 🏆 Winner, **Quorum HaQathon 2025** — Contributed and presented an AI-powered sentiment analysis solution
 - 🎓 B.Tech in Computer Science
 - 🌱 Currently deepening my DSA in Java and exploring Redis & Docker for backend systems
 - 🎯 Focused on backend engineering: **Java · Spring Boot · REST APIs · SQL · System Design**
