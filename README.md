@@ -71,3 +71,11 @@ DATABASES         MySQL  •  PostgreSQL  •  Oracle  •  H2  •  JPQL
 DISTRIBUTED       Redis  •  Caching  •  TTL  •  Idempotency  •  Docker
 
 TOOLS             Git  •  Maven  •  Postman  •  IntelliJ  •  Jira
+
+LEETCODE          [https://leetcode.com/amaan0408](https://leetcode.com/amaan0408)
+
+DATA STRUCTURES   Arrays  •  Strings  •  Hashing  •  Linked Lists
+                  Stacks  •  Queues  •  Trees  •  Graphs
+
+ALGORITHMS        Two Pointers  •  Sliding Window  •  Binary Search
+                  Sorting  •  Recursion  •  Dynamic Programming
