@@ -18,7 +18,7 @@ Java backend engineer building **reliable, secure systems** that scale. I live i
 
 **Currently:** Contributing to major open-source projects while strengthening depth in backend engineering.
 
-**Previously:** Enterprise Java at Quorum Software (L2 support → production debugging → root-cause analysis). Built systems that handled authentication, caching, concurrency, and real data.
+**Previously:** Technical Consultant intern at Quorum Software. Worked on enterprise Java systems, authentication, caching, and real-world data handling.
 
 **Next:** Keycloak and identity/access systems. Long-term goal: Red Hat or similar product company building the infrastructure layer.
 
@@ -122,12 +122,12 @@ RESTful backend for employee/department management with proper security layers.
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-amaan0408-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/amaan0408)
 
-Consistently practicing DSA in Java with focus on:
-- **Fundamentals:** Arrays, strings, hashing, two pointers, sliding window
-- **Structures:** Linked lists, stacks, queues, trees, graphs
-- **Advanced:** Sorting, searching, dynamic programming, bit manipulation
+Practicing DSA in Java:
+- Arrays, strings, hashing, two pointers, sliding window
+- Linked lists, stacks, queues, trees, graphs
+- Sorting, searching
 
-Not just collecting points — building muscle memory for real problem-solving.
+Building problem-solving skills.
 
 ---
 
@@ -143,21 +143,8 @@ Not just collecting points — building muscle memory for real problem-solving.
 
 ---
 
-## 🎯 What's Next
-
-- **Now:** Continue contributing to Keycloak (2-3 more PRs this year)
-- **6 months:** Blog post on Keycloak internals
-- **12-18 months:** Recognized as Keycloak contributor in the community
-- **2-3 years:** Join Red Hat or similar product company building identity/access infrastructure
-
-Not a dream. A plan with a track record.
-
----
-
 <div align="center">
 
 **Java · Spring Boot · Distributed Systems · Open Source**
-
-*Last updated: September 2026 — Keycloak PR #51912 merged ✓*
 
 </div>
