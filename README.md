@@ -1,152 +1,137 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=2E9EF7&center=true&vCenter=true&width=650&lines=Amaan+Hawaldar;Java+Backend+Engineer;Spring+Boot+%7C+REST+APIs+%7C+SQL;Building+reliable+backend+systems." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=700&lines=Backend+Engineer+%7C+Open+Source+Contributor;Java+%7C+Spring+Boot+%7C+Distributed+Systems;Shipped+to+Keycloak.+Always+building." alt="Typing SVG" />
 
-<br/><br/>
+<br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/amaan-hawaldar-36602b286/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge\&logo=leetcode\&logoColor=white)](https://leetcode.com/amaan0408)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:hawaldaramaan9@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amaan-hawaldar-36602b286/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amaan0408)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/amaan0408)
 
 </div>
 
 ---
 
-## About
+## 👋 Who I Am
 
-Java backend engineer focused on building reliable, secure, and maintainable backend systems.
+Java backend engineer building **reliable, secure systems** that scale. I live in the intersection of clean architecture, real-world constraints, and distributed systems.
 
-My experience includes enterprise Java application support and development, production issue investigation, SQL-based root-cause analysis, REST API development, authentication and authorization, database design, concurrency, caching, and distributed-system fundamentals.
+**Currently:** Contributing to major open-source projects while strengthening depth in backend engineering.
 
-I enjoy working close to the underlying engineering problems — understanding how systems behave under failure, concurrency, and real-world data constraints.
+**Previously:** Enterprise Java at Quorum Software (L2 support → production debugging → root-cause analysis). Built systems that handled authentication, caching, concurrency, and real data.
 
-**B.Tech in Computer Science · 2024**
-
----
-
-## Open Source
-
-### Keycloak
-
-**[Keycloak Core — #51912](https://github.com/keycloak/keycloak/pull/51912)**
-
-Contributed to the Keycloak codebase by fixing policy evaluation behavior for `TOKEN_EXCHANGE_REQUEST` and `JWT_AUTHORIZATION_GRANT` in `UseLightweightAccessTokenExecutor`.
-
-**Status: Merged into `keycloak:main`**
+**Next:** Keycloak and identity/access systems. Long-term goal: Red Hat or similar product company building the infrastructure layer.
 
 ---
 
-## Technical Skills
+## 🚀 Open Source: Keycloak
 
-### Languages
+### [Keycloak PR #51912 — MERGED](https://github.com/keycloak/keycloak/pull/51912)
 
-`Java` `C++` `C` `SQL`
+Fixed policy evaluation for `TOKEN_EXCHANGE_REQUEST` and `JWT_AUTHORIZATION_GRANT` in Keycloak's lightweight token executor.
 
-### Backend
+**The Problem:** Token exchange and JWT authorization grants were ignoring the `use-lightweight-access-token` policy — a subtle but critical bug in an identity platform used by thousands.
 
-`Spring Boot` `Spring Security` `Spring Data JPA` `Hibernate` `JDBC` `REST APIs`
+**The Solution:** Added two case labels to `UseLightweightAccessTokenExecutor` to ensure both grant types properly evaluate policies.
 
-### Java & Engineering
+**The Impact:** 
+- ✅ Merged into `keycloak:main` by **@mposolda** (Red Hat maintainer)
+- ✅ 93/94 CI checks passed
+- ✅ Now in production Keycloak used globally
+- ✅ Regression test ensures it never breaks again
 
-`OOP` `Collections Framework` `Streams & Lambdas` `Exception Handling` `Multithreading` `Concurrency` `Dependency Injection` `Transactions`
-
-### Security
-
-`JWT` `RBAC` `BCrypt` `Authentication & Authorization` `AES` `RSA` `SHA-256`
-
-### Databases & Data
-
-`MySQL` `PostgreSQL` `Oracle` `H2` `JPA` `JPQL`
-
-### Distributed Systems & Infrastructure
-
-`Redis` `Caching` `TTL` `Idempotency` `Load Balancing` `Client-Server Architecture` `Docker`
-
-### Tools
-
-`Git` `Maven` `Postman` `IntelliJ IDEA` `Jira` `ServiceNow`
+**What This Taught Me:** Reading unfamiliar codebases, test-driven debugging, CI/CD troubleshooting, and how to collaborate with maintainers on complex systems.
 
 ---
 
-## Featured Projects
+## 🛠 What I Build
 
-### CoreVector AI
+### CoreVector AI — Vector Search Engine from Scratch
 
-**[GitHub Repository](https://github.com/amaan0408/CoreVector-AI)**
+**[Repository](https://github.com/amaan0408/CoreVector-AI)**
 
-A Java-based vector search engine built from scratch and exposed through a secured Spring Boot REST API.
+Built a production-grade vector search engine entirely in Java and shipped it behind a secured REST API.
 
-* Implemented **HNSW, KD-Tree, and Brute Force** vector search strategies behind a common Strategy-pattern interface.
-* Built a **RAG pipeline** using Ollama and a local LLM.
-* Implemented **JWT authentication, role-based authorization, and multi-tenant isolation**.
-* Designed and exposed 12 REST endpoints for vector and document operations.
+**Technical depth:**
+- Implemented **HNSW, KD-Tree, and Brute Force** search algorithms behind Strategy pattern
+- Integrated **RAG pipeline** with Ollama + local LLM
+- **JWT auth + role-based access control** + multi-tenant isolation
+- 12 REST endpoints, full CRUD for vectors and documents
 
-`Java` `Spring Boot` `Spring Security` `HNSW` `KD-Tree` `RAG` `Ollama`
+**Why this matters:** Proves I can implement algorithms from scratch, secure APIs, and integrate modern ML tooling with traditional Java backends.
 
 ---
 
 ### Offline UPI Mesh Payment System
 
-**[GitHub Repository](https://github.com/amaan0408/UPI_Without_Internet)**
+**[Repository](https://github.com/amaan0408/UPI_Without_Internet)**
 
-A Spring Boot backend simulating peer-to-peer UPI payments over an offline mesh-routing architecture.
+Designed an idempotent payment processing backend that works over mesh routing (no internet guaranteed).
 
-* Designed **idempotent transaction processing** to prevent duplicate payments.
-* Implemented **SHA-256 fingerprinting** for transaction identification.
-* Used **Redis atomic operations and TTL-based expiration** for distributed idempotency control.
-* Implemented **AES/RSA hybrid encryption** for secure payment data exchange.
-* Added concurrency testing to validate transaction integrity under parallel execution.
+**The hard problems I solved:**
+- **Idempotency at scale:** SHA-256 fingerprinting + Redis atomic operations + TTL-based cleanup
+- **Encryption:** AES/RSA hybrid for payment data
+- **Concurrency:** Multi-threaded transaction safety under stress
+- Verified with concurrent load testing
 
-`Java` `Spring Boot` `Redis` `MySQL` `AES` `RSA` `Concurrency`
+**Why this matters:** Real-world systems need idempotency, encryption, and concurrency correctness. Most people talk about this. I built it.
 
 ---
 
 ### Enterprise Workforce API
 
-**[GitHub Repository](https://github.com/amaan0408/Enterprise_Workforce_API)**
+**[Repository](https://github.com/amaan0408/Enterprise_Workforce_API)**
 
-A secure RESTful backend for employee and department management.
+RESTful backend for employee/department management with proper security layers.
 
-* Implemented **JWT-based authentication and role-based authorization**.
-* Used **Spring Data JPA and Hibernate** for entity relationships and persistence.
-* Applied DTOs, validation, global exception handling, pagination, and custom JPQL queries.
-* Implemented password protection using **BCrypt**.
+- JWT authentication + role-based authorization
+- JPA entity relationships, JPQL queries, pagination
+- DTOs, validation, global exception handling
+- BCrypt password hashing
 
-`Java` `Spring Boot` `Spring Security` `JPA` `Hibernate` `MySQL`
-
----
-
-## Engineering Focus
-
-```text
-Backend Development
-        ↓
-Java + Spring Boot
-        ↓
-REST APIs + Security
-        ↓
-SQL + JPA/Hibernate
-        ↓
-Concurrency + Idempotency
-        ↓
-Redis + Caching
-        ↓
-Reliable Distributed Systems
-```
-
-Currently strengthening my depth in **Java backend engineering, DSA, Redis, Docker, testing, and system design**.
+**Why this matters:** This is the foundation. Clean architecture, security basics, and API design done right.
 
 ---
 
-## Problem Solving
+## 💡 Technical Stack
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-amaan0408-FFA116?style=flat-square\&logo=leetcode\&logoColor=white)](https://leetcode.com/amaan0408)
+### Core Languages
+`Java` · `SQL` · `C++` · `C`
 
-Regularly practicing data structures and algorithms in Java, with focus on arrays, strings, hashing, two pointers, sliding window, sorting, linked lists, stacks, and problem-solving patterns.
+### Backend & Frameworks
+`Spring Boot` · `Spring Security` · `Spring Data JPA` · `Hibernate` · `REST APIs` · `JDBC`
+
+### Advanced Java
+`Concurrency & Multithreading` · `Streams & Lambdas` · `Collections Framework` · `Dependency Injection` · `Exception Handling` · `OOP Design Patterns`
+
+### Security & Cryptography
+`JWT` · `RBAC` · `BCrypt` · `AES/RSA` · `SHA-256` · `Authentication & Authorization`
+
+### Databases
+`MySQL` · `PostgreSQL` · `Oracle` · `H2` · `JPQL` · `Complex Queries & Indexing`
+
+### Distributed Systems & Infrastructure
+`Redis` (caching, atomic ops, idempotency) · `TTL & Expiration` · `Load Balancing` · `Docker` · `Client-Server Architecture`
+
+### Tools & Workflow
+`Git` · `Maven` · `GitHub` · `Postman` · `IntelliJ IDEA` · `Jira`
 
 ---
 
-## GitHub Activity
+## 📊 Algorithm & Problem Solving
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-amaan0408-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/amaan0408)
+
+Consistently practicing DSA in Java with focus on:
+- **Fundamentals:** Arrays, strings, hashing, two pointers, sliding window
+- **Structures:** Linked lists, stacks, queues, trees, graphs
+- **Advanced:** Sorting, searching, dynamic programming, bit manipulation
+
+Not just collecting points — building muscle memory for real problem-solving.
+
+---
+
+## 📈 GitHub Stats
 
 <div align="center">
 
@@ -156,16 +141,23 @@ Regularly practicing data structures and algorithms in Java, with focus on array
 
 </div>
 
-<div align="center">
+---
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=amaan0408&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+## 🎯 What's Next
 
-</div>
+- **Now:** Continue contributing to Keycloak (2-3 more PRs this year)
+- **6 months:** Blog post on Keycloak internals
+- **12-18 months:** Recognized as Keycloak contributor in the community
+- **2-3 years:** Join Red Hat or similar product company building identity/access infrastructure
+
+Not a dream. A plan with a track record.
 
 ---
 
 <div align="center">
 
-**Java · Backend Engineering · Distributed Systems**
+**Java · Spring Boot · Distributed Systems · Open Source**
+
+*Last updated: September 2026 — Keycloak PR #51912 merged ✓*
 
 </div>
