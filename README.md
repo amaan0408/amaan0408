@@ -14,86 +14,60 @@
 
 ## About
 
-Backend engineer building Java systems. Intern at Quorum Software working on enterprise applications. Shipped code to Keycloak.
+Backend engineer specializing in enterprise Java systems. Intern at Quorum Software working on database & application backend pipelines. Active open-source contributor to Keycloak.
 
-Focus: REST APIs, authentication, caching, distributed systems, and making systems that actually work under real constraints.
+**Focus:** REST API architecture, authentication & authorization, caching, distributed systems, and scalable backend design.
 
 ---
 
 ## Open Source
 
-### [Keycloak — PR #51912](https://github.com/keycloak/keycloak/pull/51912)
+### ⚡ [Keycloak — PR #51912](https://github.com/keycloak/keycloak/pull/51912)
 
-Fixed policy evaluation in lightweight token executor for `TOKEN_EXCHANGE_REQUEST` and `JWT_AUTHORIZATION_GRANT` flows.
+Fixed policy evaluation logic in the lightweight token executor for `TOKEN_EXCHANGE_REQUEST` and `JWT_AUTHORIZATION_GRANT` flows.
 
-**Status:** Merged to `keycloak:main` | 93/94 CI checks passed
+* **Status:** Merged into `keycloak:main`
 
 ---
 
 ## Projects
 
-### **Offline UPI Mesh Payment System**
+### 💳 **Offline UPI Mesh Payment System** | [Repository](https://github.com/amaan0408/UPI_Without_Internet)
+Architected an idempotent payment processing system operating over peer-to-peer mesh routing. Features SHA-256 transaction fingerprinting, Redis atomic operations, AES/RSA encryption, and stress-tested concurrency controls.
 
-[Repository](https://github.com/amaan0408/UPI_Without_Internet)
-
-Idempotent payment processing over mesh routing. SHA-256 fingerprinting, Redis atomic operations, AES/RSA encryption, concurrent load tested.
-
-`Java` `Spring Boot` `Redis` `MySQL` `Encryption` `Concurrency`
+`Java` • `Spring Boot` • `Redis` • `MySQL` • `Cryptography` • `Concurrency`
 
 ---
 
-### **CoreVector AI** — Vector Search Engine
+### 🔍 **CoreVector AI** — Vector Search Engine | [Repository](https://github.com/amaan0408/CoreVector-AI)
+High-performance vector retrieval engine implementing HNSW, KD-Tree, and Brute Force search strategies. Integrated with Ollama for RAG pipelines, secured via JWT/RBAC with multi-tenant isolation across 12 REST endpoints.
 
-[Repository](https://github.com/amaan0408/CoreVector-AI)
-
-HNSW, KD-Tree, and Brute Force search implementations behind Strategy pattern. RAG pipeline with Ollama. JWT auth, role-based access control, multi-tenant isolation. 12 REST endpoints.
-
-`Java` `Spring Boot` `JWT` `HNSW` `KD-Tree` `Ollama`
+`Java` • `Spring Boot` • `JWT` • `HNSW` • `KD-Tree` • `Ollama`
 
 ---
 
-### **Enterprise Workforce API**
+### 🏢 **Enterprise Workforce API** | [Repository](https://github.com/amaan0408/Enterprise_Workforce_API)
+RESTful backend for scalable employee and department management. Implemented stateless JWT security, role-based authorization, optimized JPA entity relationships, and BCrypt password hashing.
 
-[Repository](https://github.com/amaan0408/Enterprise_Workforce_API)
-
-RESTful backend for employee/department management. JWT auth, role-based authorization, JPA entity relationships, JPQL queries, BCrypt.
-
-`Java` `Spring Boot` `Spring Security` `Hibernate` `MySQL`
+`Java` • `Spring Boot` • `Spring Security` • `Hibernate` • `MySQL`
 
 ---
 
 ## Technical Stack
 
-```
-LANGUAGES        Java  •  SQL  •  C++  •  C
+```text
+LANGUAGES         Java  •  SQL  •  C++  •  C
 
-BACKEND          Spring Boot  •  Spring Security  •  Spring Data JPA
-                 Hibernate  •  JDBC  •  REST APIs
+BACKEND           Spring Boot  •  Spring Security  •  Spring Data JPA
+                  Hibernate  •  JDBC  •  RESTful APIs
 
-JAVA CORE        Concurrency  •  Streams & Lambdas  •  Collections
-                 OOP & Design Patterns  •  Exception Handling
+JAVA CORE         Concurrency  •  Streams & Lambdas  •  Collections
+                  OOP & Design Patterns  •  Exception Handling
 
-SECURITY         JWT  •  RBAC  •  BCrypt  •  AES/RSA  •  SHA-256
+SECURITY          JWT  •  RBAC  •  BCrypt  •  AES/RSA  •  SHA-256
 
-DATABASES        MySQL  •  PostgreSQL  •  Oracle  •  H2  •  JPQL
+DATABASES         MySQL  •  PostgreSQL  •  Oracle  •  H2  •  JPQL
 
-DISTRIBUTED      Redis  •  Caching  •  TTL  •  Idempotency  •  Docker
+DISTRIBUTED       Redis  •  Caching  •  TTL  •  Idempotency  •  Docker
 
-TOOLS            Git  •  Maven  •  Postman  •  IntelliJ  •  Jira
-```
-
----
-
-## DSA
-
-[LeetCode Profile](https://leetcode.com/amaan0408)
-
-Arrays • Strings • Hashing • Two Pointers • Sliding Window • Linked Lists • Stacks • Queues • Trees • Graphs • Sorting • Searching
-
----
-
-<div align="center">
-
-**Java · Backend · Distributed Systems**
-
-</div>
+TOOLS             Git  •  Maven  •  Postman  •  IntelliJ  •  Jira
