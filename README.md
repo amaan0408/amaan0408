@@ -20,7 +20,8 @@
 - 🌱 Currently deepening my DSA in Java and exploring Redis & Docker for backend systems
 - 🎯 Focused on backend engineering: **Java · Spring Boot · REST APIs · SQL · System Design**
 - ⚡ Fun fact: I am also a Video Editor, blending my love for storytelling with my love for building things
-
+### 🏆 Open Source Contributions
+* **[Keycloak Core (#51912)](https://github.com/keycloak/keycloak/pull/51912):** Fixed `TOKEN_EXCHANGE_REQUEST` and `JWT_AUTHORIZATION_GRANT` policy evaluation in `UseLightweightAccessTokenExecutor` (Merged into `keycloak:main`).
 ---
 
 ### 🛠️ Tech Stack
