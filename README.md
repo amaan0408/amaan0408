@@ -1,105 +1,171 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Amaan+Hawaldar+%F0%9F%91%8B;Backend+Java+Developer;Spring+Boot+%7C+REST+APIs+%7C+SQL;Building+scalable+systems%2C+one+commit+at+a+time." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=2E9EF7&center=true&vCenter=true&width=650&lines=Amaan+Hawaldar;Java+Backend+Engineer;Spring+Boot+%7C+REST+APIs+%7C+SQL;Building+reliable+backend+systems." alt="Typing SVG" />
 
-<br/>
+<br/><br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-amaan--hawaldar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amaan-hawaldar-36602b286/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-amaan0408-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/amaan0408)
-[![Email](https://img.shields.io/badge/Email-hawaldaramaan9%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hawaldaramaan9@gmail.com)
-
-</div>
-
----
-
-### 👨‍💻 About Me
-
-- 🔧 Technical Consultant Intern @ **Quorum Software**, working on enterprise Java applications — production issue investigation, SQL root-cause analysis, and Spring Boot backend development
-- 🏆 Winner, **Quorum HaQathon 2025** — Contributed and presented an AI-powered sentiment analysis solution
-- 🎓 B.Tech in Computer Science
-- 🌱 Currently deepening my DSA in Java and exploring Redis & Docker for backend systems
-- 🎯 Focused on backend engineering: **Java · Spring Boot · REST APIs · SQL · System Design**
-- ⚡ Fun fact: I am also a Video Editor, blending my love for storytelling with my love for building things
-### 🏆 Open Source Contributions
-* **[Keycloak Core (#51912)](https://github.com/keycloak/keycloak/pull/51912):** Fixed `TOKEN_EXCHANGE_REQUEST` and `JWT_AUTHORIZATION_GRANT` policy evaluation in `UseLightweightAccessTokenExecutor` (Merged into `keycloak:main`).
----
-
-### 🛠️ Tech Stack
-
-<div align="center">
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/amaan-hawaldar-36602b286/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge\&logo=leetcode\&logoColor=white)](https://leetcode.com/amaan0408)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:hawaldaramaan9@gmail.com)
 
 </div>
 
 ---
 
-### 🚀 Featured Projects
+## About
 
-<table>
-<tr>
-<td width="50%">
+Java backend engineer focused on building reliable, secure, and maintainable backend systems.
 
-**[CoreVector AI](https://github.com/amaan0408/CoreVector-AI)**
+My experience includes enterprise Java application support and development, production issue investigation, SQL-based root-cause analysis, REST API development, authentication and authorization, database design, concurrency, caching, and distributed-system fundamentals.
 
-A Java vector search engine built from scratch — implements HNSW, KD-Tree, and Brute Force search behind a common Strategy-pattern interface, exposed via 12 secured REST endpoints. Includes a full RAG pipeline (Ollama + local LLM), JWT auth, role-based access, and multi-tenant isolation.
+I enjoy working close to the underlying engineering problems — understanding how systems behave under failure, concurrency, and real-world data constraints.
 
-`Java` `Spring Boot` `Spring Security` `Ollama` `HNSW`
-
-</td>
-<td width="50%">
-
-**[Offline UPI Mesh Payment System](https://github.com/amaan0408/UPI_Without_Internet)**
-
-A Spring Boot backend simulating offline peer-to-peer UPI payments over a mesh routing architecture. Idempotent transaction processing, SHA-256 idempotency keys, and concurrency testing to guarantee data integrity under parallel execution.
-
-`Java` `Spring Boot` `REST APIs` `H2 Database`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**[Enterprise Workforce API](https://github.com/amaan0408/Enterprise_Workforce_API)**
-
-A secure RESTful backend for employee & department management — JWT authentication, BCrypt hashing, role-based authorization, JPA entity relationships, DTOs, and custom JPQL queries.
-
-`Java` `Spring Boot` `Spring Security` `MySQL`
-
-</td>
-<td width="50%">
-
-More projects on the way — always building, always learning. 🔨
-
-</td>
-</tr>
-</table>
+**B.Tech in Computer Science · 2024**
 
 ---
 
-### 📊 GitHub Stats
+## Open Source
+
+### Keycloak
+
+**[Keycloak Core — #51912](https://github.com/keycloak/keycloak/pull/51912)**
+
+Contributed to the Keycloak codebase by fixing policy evaluation behavior for `TOKEN_EXCHANGE_REQUEST` and `JWT_AUTHORIZATION_GRANT` in `UseLightweightAccessTokenExecutor`.
+
+**Status: Merged into `keycloak:main`**
+
+---
+
+## Technical Skills
+
+### Languages
+
+`Java` `C++` `C` `SQL`
+
+### Backend
+
+`Spring Boot` `Spring Security` `Spring Data JPA` `Hibernate` `JDBC` `REST APIs`
+
+### Java & Engineering
+
+`OOP` `Collections Framework` `Streams & Lambdas` `Exception Handling` `Multithreading` `Concurrency` `Dependency Injection` `Transactions`
+
+### Security
+
+`JWT` `RBAC` `BCrypt` `Authentication & Authorization` `AES` `RSA` `SHA-256`
+
+### Databases & Data
+
+`MySQL` `PostgreSQL` `Oracle` `H2` `JPA` `JPQL`
+
+### Distributed Systems & Infrastructure
+
+`Redis` `Caching` `TTL` `Idempotency` `Load Balancing` `Client-Server Architecture` `Docker`
+
+### Tools
+
+`Git` `Maven` `Postman` `IntelliJ IDEA` `Jira` `ServiceNow`
+
+---
+
+## Featured Projects
+
+### CoreVector AI
+
+**[GitHub Repository](https://github.com/amaan0408/CoreVector-AI)**
+
+A Java-based vector search engine built from scratch and exposed through a secured Spring Boot REST API.
+
+* Implemented **HNSW, KD-Tree, and Brute Force** vector search strategies behind a common Strategy-pattern interface.
+* Built a **RAG pipeline** using Ollama and a local LLM.
+* Implemented **JWT authentication, role-based authorization, and multi-tenant isolation**.
+* Designed and exposed 12 REST endpoints for vector and document operations.
+
+`Java` `Spring Boot` `Spring Security` `HNSW` `KD-Tree` `RAG` `Ollama`
+
+---
+
+### Offline UPI Mesh Payment System
+
+**[GitHub Repository](https://github.com/amaan0408/UPI_Without_Internet)**
+
+A Spring Boot backend simulating peer-to-peer UPI payments over an offline mesh-routing architecture.
+
+* Designed **idempotent transaction processing** to prevent duplicate payments.
+* Implemented **SHA-256 fingerprinting** for transaction identification.
+* Used **Redis atomic operations and TTL-based expiration** for distributed idempotency control.
+* Implemented **AES/RSA hybrid encryption** for secure payment data exchange.
+* Added concurrency testing to validate transaction integrity under parallel execution.
+
+`Java` `Spring Boot` `Redis` `MySQL` `AES` `RSA` `Concurrency`
+
+---
+
+### Enterprise Workforce API
+
+**[GitHub Repository](https://github.com/amaan0408/Enterprise_Workforce_API)**
+
+A secure RESTful backend for employee and department management.
+
+* Implemented **JWT-based authentication and role-based authorization**.
+* Used **Spring Data JPA and Hibernate** for entity relationships and persistence.
+* Applied DTOs, validation, global exception handling, pagination, and custom JPQL queries.
+* Implemented password protection using **BCrypt**.
+
+`Java` `Spring Boot` `Spring Security` `JPA` `Hibernate` `MySQL`
+
+---
+
+## Engineering Focus
+
+```text
+Backend Development
+        ↓
+Java + Spring Boot
+        ↓
+REST APIs + Security
+        ↓
+SQL + JPA/Hibernate
+        ↓
+Concurrency + Idempotency
+        ↓
+Redis + Caching
+        ↓
+Reliable Distributed Systems
+```
+
+Currently strengthening my depth in **Java backend engineering, DSA, Redis, Docker, testing, and system design**.
+
+---
+
+## Problem Solving
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-amaan0408-FFA116?style=flat-square\&logo=leetcode\&logoColor=white)](https://leetcode.com/amaan0408)
+
+Regularly practicing data structures and algorithms in Java, with focus on arrays, strings, hashing, two pointers, sliding window, sorting, linked lists, stacks, and problem-solving patterns.
+
+---
+
+## GitHub Activity
 
 <div align="center">
+
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=amaan0408&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amaan0408&layout=compact&theme=tokyonight&hide_border=true" />
+
 </div>
 
 <div align="center">
+
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=amaan0408&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+
 </div>
 
 ---
 
 <div align="center">
 
-💬 *Let's connect — always happy to talk backend architecture, Java internals, or system design over a good cup of chai.*
+**Java · Backend Engineering · Distributed Systems**
 
 </div>
