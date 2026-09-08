@@ -32,16 +32,6 @@ Fixed policy evaluation in lightweight token executor for `TOKEN_EXCHANGE_REQUES
 
 ## Projects
 
-### **CoreVector AI** — Vector Search Engine
-
-[Repository](https://github.com/amaan0408/CoreVector-AI)
-
-HNSW, KD-Tree, and Brute Force search implementations behind Strategy pattern. RAG pipeline with Ollama. JWT auth, role-based access control, multi-tenant isolation. 12 REST endpoints.
-
-`Java` `Spring Boot` `JWT` `HNSW` `KD-Tree` `Ollama`
-
----
-
 ### **Offline UPI Mesh Payment System**
 
 [Repository](https://github.com/amaan0408/UPI_Without_Internet)
@@ -49,6 +39,16 @@ HNSW, KD-Tree, and Brute Force search implementations behind Strategy pattern. R
 Idempotent payment processing over mesh routing. SHA-256 fingerprinting, Redis atomic operations, AES/RSA encryption, concurrent load tested.
 
 `Java` `Spring Boot` `Redis` `MySQL` `Encryption` `Concurrency`
+
+---
+
+### **CoreVector AI** — Vector Search Engine
+
+[Repository](https://github.com/amaan0408/CoreVector-AI)
+
+HNSW, KD-Tree, and Brute Force search implementations behind Strategy pattern. RAG pipeline with Ollama. JWT auth, role-based access control, multi-tenant isolation. 12 REST endpoints.
+
+`Java` `Spring Boot` `JWT` `HNSW` `KD-Tree` `Ollama`
 
 ---
 
